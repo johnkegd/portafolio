@@ -14,6 +14,14 @@ gulp.task('sass', () => {
     .pipe(browsersync.stream());
 });
 
+gulp.task('html', () => {
+    return gulp.src([
+        'src/*.html'
+    ])
+    .pipe(gulp.dest('./'))
+    .pipe(browsersync.stream());
+});
+
 gulp.task('js', () => {
     return gulp.src([
         'node_modules/bootstrap/dist/js/bootstrap.min.js',
@@ -60,4 +68,4 @@ gulp.task('fonts', () => {
         .pipe(gulp.dest('src/fonts'));
 });
 
-gulp.task('default', gulp.parallel('js', 'font-awesome', 'fonts', 'serve'))
+gulp.task('default', gulp.parallel('js', 'font-awesome', 'fonts', 'serve','html'))
