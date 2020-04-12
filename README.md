@@ -18,6 +18,14 @@
   <a href="https://reactjs.org/">React</a>
   ·
   <a href="https://materializecss.com/">Materialize</a>
+  ·
+  <a>browser-sync 2.26.7</a>
+  ·
+  <a>gulp 4.0.2</a>
+  ·
+  <a>gulp-cli 2.2.0</a>
+  ·
+  <a>gulp-sass 4.0.2</a>
 </p>
 
 
