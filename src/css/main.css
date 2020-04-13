@@ -1,6 +1,9 @@
 body {
+  padding: 0 0;
+  margin: 10% auto;
   background: #000000;
-  color: white; }
+  color: white;
+  font-family: fantasy; }
 
 h1 {
   text-align: center; }
