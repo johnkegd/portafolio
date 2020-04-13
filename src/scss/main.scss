@@ -1,7 +1,8 @@
 body{
     padding:0 0;
     margin:0 auto;
-    background:#000000;
+    background-image: url("https://www.plattas.ch/img/tempo/background.png");
+    background-color:black;
     color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -16,6 +17,13 @@ h1{
 }
 .navbar-dark .navbar-toggler{
     border-color: transparent;
+}
+nav{
+    background: #343840f2;
+}
+
+.jumbotron{
+    background: #4d5e6fb3;
 }
 
 
